@@ -1,6 +1,9 @@
 import requests
 import json
 
+
+
+
 request = requests.get('https://devnet.cisco.com/v1/metadata/catalogs/search')
 data = request.json()
 types = []
